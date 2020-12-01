@@ -17,8 +17,8 @@ nvcc_args = [
     '-gencode', 'arch=compute_70,code=compute_70'
 ]
 
-source = glob.glob('core/csrc/*.cpp')
-source += glob.glob('core/csrc/*.cu')
+source = glob.glob('grid_sample/csrc/*.cpp')
+source += glob.glob('grid_sample/csrc/*.cu')
 
 setup(
     name='grid_sample',
